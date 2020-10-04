@@ -18,7 +18,7 @@ ul {
   list-style: none;
 }
 #container {
-    width: 1440px;
+    width: 1080px;
     height: 100%;
     margin: 56px auto;
 }
@@ -31,7 +31,7 @@ ul {
 }
 .navBar a{
     display: flex;
-    margin: 30px 0;
+    margin: 0;
 }
 .navBar a img{
     width: 68px;
@@ -72,7 +72,7 @@ ul {
 .contNav h2 {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
-    font-size: 64px;
+    font-size: 45px;
     line-height: 80px;
 }
 .contNav p {
@@ -81,6 +81,9 @@ ul {
     font-weight: 550;
     color: #66645E;
     margin-top: 24px;
+}
+.contNav img {
+    width: 60%;
 }
 .contNav button {
     margin-top: 40px;
@@ -170,33 +173,33 @@ ul {
     justify-content: space-between;
     margin-top: 160px;
 }
-#secOrg {
+.secOrg {
     display: flex;
     justify-content: space-between;
     margin-bottom: 160px;
 }
-#secOrg {
+.secOrg {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
     width: 60%;
 }
-#secOrg img {
+.secOrg img {
     width: 80px;
     height: 80px;
     margin-bottom: 24px;
 }
-#secOrg h4 {
+.secOrg h4, h5 {
     font-size: 48px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
     margin-bottom: 24px;
 }
-#secOrg p {
+.secOrg p {
     font-size: 18px;
 }
-#secOrgEditCard {
+.secOrgEditCard {
     display: flex;
     flex-direction: column ;
     width: 484px;
@@ -206,7 +209,7 @@ ul {
     box-shadow: 15px 15px 1px #71A894;
     border-radius: 16px;
 }
-#secOrgEditCard span {
+.secOrgEditCard span {
     font-size: 32px;
     margin-left: 38px;
     margin-bottom: 28px;
@@ -221,7 +224,7 @@ ul {
 .cardEdit span {
     margin: 0;
 }
-#secOrgEditCard img{
+.secOrgEditCard img{
     width: 78px;
     height: 78px;
     border-radius: 100%;
@@ -240,7 +243,7 @@ ul {
     justify-content: space-between;
     margin-top: 160px;
 }
-#cardJassir {
+.cardJassir {
     display: flex;
     flex-direction: column ;
     width: 484px;
@@ -253,37 +256,115 @@ ul {
 .cardEdit {
     margin-top: 36px;
 }
-#cardJassir p {
+.cardJassir p {
     margin: 24px 10px 28px 40px;
 }
-#cardJassir span {
+.cardJassir span {
     font-size: 32px;
     margin-left: 38px;
     margin-bottom: 28px;
     margin-top: 32px;
 }
-#cardJassir h1 {  
+.cardJassir h1 {  
     margin: 0;
 }
-#cardJassir img{
+.cardJassir img{
     width: 78px;
     height: 78px;
     border-radius: 100%;
     margin-right: 20px;
 }
-#cardJassir p {
+.cardJassir p {
     font-size: 16px;
     font-weight: 500;
     color: #66645E;
     margin-top: 10px;
 }
-#valores {
-    margin-top: 32px;
-    margin-left: 40px;
+.valores {
     margin-right: 40px;
     display: flex;
     flex-direction: column;
 }
 #grupoValores {
     display: flex;
+    justify-content: space-between;
+}
+#grupoValores span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #66645E;
+}
+#grupoValores p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #303031;
+}
+.valores button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #303031;
+    width: 404px;
+    height: 56px;
+    border-radius: 16px;
+    color: white;
+    font-size: 26px;
+    border: none;
+    outline: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.valores button:hover {
+    transition: 0.3s;
+    background: #111111;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.secOrg2 {
+    width: 580px;
+    margin-left: 30px;
+}
+/* --------------------------------------------- */
+.helpImprove {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.helpImprove h6 {
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 24px;
+}
+.helpImprove p {
+    width: 78%;
+}
+.allCardsHelp {
+    display: flex;
+    margin-top: 16px;
+}
+.cardHelp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 348px;
+    height: 180px;
+    background: white;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 25px;
+}
+.cardHelp span {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.cardHelp p {
+    font-size: 14px;
+    margin-bottom: 16px;
 }
