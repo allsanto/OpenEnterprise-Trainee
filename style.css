@@ -20,12 +20,15 @@ ul {
 #container {
     width: 1280px;
     height: 100%;
-    margin: 56px auto;
+    margin: 0 auto;
 }
 
 /* -------Formatar MENU - Barra de VANEGAÇÃO ------- */
 .navBar {
+    background: #F9F9F9;
+    height: 110px;
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
 }
@@ -46,6 +49,7 @@ ul {
 }
 .navBar ul {
     display: flex;
+    margin-left: 300px;
 }
 .navBar ul li{
     margin-right: 40px;
@@ -479,6 +483,7 @@ margin: 0 0 0 10px;
     color: white;
     font-weight: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 /* --------------------------------------------- */
 .helpImprove {
@@ -576,6 +581,7 @@ margin: 0 0 0 10px;
     justify-content: center;
     align-items: center;
     margin-top: 68px;
+    margin-bottom: 100px;
 }
 .contEnterprise h2 {
     font-family: 'Roboto', sans-serif;
@@ -616,7 +622,7 @@ margin: 0 0 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 159px;
+    height: 100px;
 }
 
 .rodape a{
